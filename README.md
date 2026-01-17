@@ -44,12 +44,12 @@
     <td align="center" width="25%">
       <h3>📊</h3>
       <b>~50 PB</b><br/>
-      <sub>data lake I babysit</sub>
+      <sub>data lake I am babysitting</sub>
     </td>
     <td align="center" width="25%">
       <h3>⚡</h3>
       <b>p95 &lt;30s</b><br/>
-      <sub>query SLA on raw JSON</sub>
+      <sub>query SLA on raw terabyte scale JSON in less than a dollar</sub>
     </td>
     <td align="center" width="25%">
       <h3>💰</h3>
