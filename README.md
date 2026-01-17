@@ -91,7 +91,7 @@
     </td>
     <td width="50%" valign="top">
       <h4>🤖 OpsPilot</h4>
-      <p>LLM ops platform with eval gates — AI that knows when to shut up</p>
+      <p>LLM ops platform with eval gates — production grade AI platform who knows when to shut up and don't get you bankrupt</p>
       <a href="https://github.com/goyal-chintan/intelliOps">
         <img src="https://img.shields.io/badge/View_Repo-22D3EE?style=flat-square&logo=github&logoColor=black" />
       </a>
@@ -111,7 +111,7 @@
 ---
 
 <p align="center">
-  🎧 <i>Currently vibing: migrating Spark workloads, building eval pipelines, and debating tabs vs spaces (spaces, obviously)</i>
+  🎧 <i>Currently vibing: Lumos, IntelliOps, webiste, and intelligent data platforms while debating tabs vs spaces (spaces, obviously)</i>
 </p>
 
 <p align="center">
