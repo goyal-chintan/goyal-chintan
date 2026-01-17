@@ -1,7 +1,7 @@
 <!-- BANNER -->
-<p align="center">
+<!-- <p align="center">
   <img src="./banner.png" alt="Chintan Goyal" width="100%" />
-</p>
+</p> -->
 
 <!-- ANIMATED TAGLINE -->
 <p align="center">
