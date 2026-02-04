@@ -1,6 +1,6 @@
 <!-- BANNER -->
 <p align="center">
-  <img src="./banner.png" alt="Chintan Goyal" width="600" />
+  <img src="./banner_wide.png" alt="Chintan Goyal" width="100%" />
 </p>
 
 <!-- ANIMATED TAGLINE -->
