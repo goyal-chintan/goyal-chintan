@@ -1,6 +1,6 @@
 <!-- BANNER -->
 <p align="center">
-  <img src="./banner_wide.png" alt="Chintan Goyal" width="100%" />
+  <img src="./profile_header.png" alt="Chintan Goyal" width="100%" />
 </p>
 
 <!-- ANIMATED TAGLINE -->
@@ -13,13 +13,13 @@
 <!-- SOCIAL LINKS -->
 <p align="center">
   <a href="https://www.linkedin.com/in/chintan-goyal/">
-    <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://chintangoyal.com">
-    <img src="https://img.shields.io/badge/-chintangoyal.com-000?style=for-the-badge&logo=vercel&logoColor=white" />
+    <img src="https://img.shields.io/badge/Website-000000?style=flat-square&logo=vercel&logoColor=white" />
   </a>
   <a href="mailto:mail.chintan.goyal@gmail.com">
-    <img src="https://img.shields.io/badge/-Say%20Hi-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" />
   </a>
 </p>
 
