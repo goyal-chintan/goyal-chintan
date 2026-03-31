@@ -1,159 +1,158 @@
 <p align="center">
-  <img src="./hero.svg" alt="Chintan Goyal - systems-minded data and AI builder" width="100%" />
+  <img src="./hero.svg" alt="Chintan Goyal — Data & AI Infrastructure" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://readme-typing-svg.demolab.com">
+    <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=17&duration=3000&pause=1200&color=8B95B0&center=true&vCenter=true&multiline=false&width=680&height=28&lines=Building+multi-cloud+platforms+at+ISP+scale;Metadata+automation+that+keeps+catalogs+honest;Eval-gated+AI+infrastructure+you+can+actually+trust;Performance+%2B+cost+discipline+%E2%80%94+not+one+at+the+expense+of+the+other" alt="Typing SVG" />
+  </a>
 </p>
 
 <p align="center">
   <a href="https://chintangoyal.com">
-    <img src="https://img.shields.io/badge/Website-0F172A?style=for-the-badge&logo=vercel&logoColor=white" alt="Website" />
-  </a>
+    <img src="https://img.shields.io/badge/chintangoyal.com-0f0f2d?style=flat-square&logo=vercel&logoColor=667eea" alt="Website" />
+  </a>&nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/chintan-goyal/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
+    <img src="https://img.shields.io/badge/LinkedIn-0f0f2d?style=flat-square&logo=linkedin&logoColor=667eea" alt="LinkedIn" />
+  </a>&nbsp;&nbsp;
   <a href="mailto:mail.chintan.goyal@gmail.com">
-    <img src="https://img.shields.io/badge/Reach%20out-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Reach out by email" />
+    <img src="https://img.shields.io/badge/Reach%20Out-0f0f2d?style=flat-square&logo=gmail&logoColor=667eea" alt="Email" />
   </a>
 </p>
 
-<p align="center">
-  <strong>Systems-minded data &amp; AI builder.</strong><br/>
-  I design multi-cloud platforms, turn ugly cost and latency bottlenecks into leverage, and build production tooling teams can actually trust.
-</p>
+<br/>
 
-<p align="center">
-  Over the last 9+ years I have worked across AWS, GCP, Spark, Airflow, Databricks, BigQuery, and platform architecture at ISP scale.<br/>
-  Right now I am especially focused on metadata automation, portability, and eval-gated AI infrastructure.
-</p>
-
-<hr/>
-
-<h2>At a glance</h2>
+<h2>
+  <img src="https://img.shields.io/badge/%E2%80%8B-0f0f2d?style=flat-square" height="8" width="8" />
+  At a Glance
+</h2>
 
 <table>
   <tr>
-    <td width="25%" valign="top">
-      <strong>~15M customers</strong><br/>
-      <sub>served through systems I help architect and operate</sub>
+    <td width="25%" align="center">
+      <br/>
+      <strong><code>~15M</code></strong><br/>
+      <sub>customers served through<br/>systems I architect</sub>
+      <br/><br/>
     </td>
-    <td width="25%" valign="top">
-      <strong>~50 PB footprint</strong><br/>
-      <sub>data platform scale across storage, analytics, and governance work</sub>
+    <td width="25%" align="center">
+      <br/>
+      <strong><code>~50 PB</code></strong><br/>
+      <sub>data platform footprint across<br/>storage, analytics, governance</sub>
+      <br/><br/>
     </td>
-    <td width="25%" valign="top">
-      <strong>p95 ~30s</strong><br/>
-      <sub>for 1-month raw-JSON analytics after redesigning the BigQuery path</sub>
+    <td width="25%" align="center">
+      <br/>
+      <strong><code>p95 ~30s</code></strong><br/>
+      <sub>1-month raw-JSON analytics<br/>after BigQuery path redesign</sub>
+      <br/><br/>
     </td>
-    <td width="25%" valign="top">
-      <strong>~$100k / month</strong><br/>
-      <sub>saved by moving the right workloads from always-on compute to serverless SQL</sub>
+    <td width="25%" align="center">
+      <br/>
+      <strong><code>~$100k/mo</code></strong><br/>
+      <sub>saved by moving workloads<br/>from always-on to serverless</sub>
+      <br/><br/>
     </td>
   </tr>
 </table>
 
-<hr/>
+<br/>
 
-<h2>What I optimize for</h2>
-
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <strong>Portability over lock-in</strong><br/><br/>
-      Clean integration boundaries so platforms survive cloud and vendor changes without a rewrite.
-    </td>
-    <td width="33%" valign="top">
-      <strong>Performance with cost discipline</strong><br/><br/>
-      I like solutions that improve both latency and unit economics, not one at the expense of the other.
-    </td>
-    <td width="33%" valign="top">
-      <strong>Trust before hype</strong><br/><br/>
-      For platform and AI work, observability, evals, and failure-mode thinking come before flashy demos.
-    </td>
-  </tr>
-</table>
-
-<hr/>
-
-<h2>Selected work</h2>
+<h2>
+  <img src="https://img.shields.io/badge/%E2%80%8B-0f0f2d?style=flat-square" height="8" width="8" />
+  Selected Work
+</h2>
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <strong><a href="https://github.com/goyal-chintan/project-lumos">Project Lumos</a></strong><br/>
-      <sub>Cloud- and catalog-agnostic metadata automation</sub><br/><br/>
-      Connects data-producing systems to a chosen catalog, keeps metadata current without manual toil, and preserves portability through adapter boundaries.<br/><br/>
-      <code>6+ source handlers</code>
-      <code>config-driven operations</code>
-      <code>DataHub today</code>
+      <h3><a href="https://github.com/goyal-chintan/project-lumos">Project Lumos</a></h3>
+      <sub><code>BUILDING</code> · metadata automation</sub><br/><br/>
+      Cloud- and catalog-agnostic metadata platform that connects data-producing systems to your chosen catalog. Keeps metadata current without manual toil, preserves portability through adapter boundaries.
+      <br/><br/>
+      <img src="https://img.shields.io/badge/6%2B%20source%20handlers-667eea?style=flat-square&labelColor=0f0f2d" />
+      <img src="https://img.shields.io/badge/config--driven-a78bfa?style=flat-square&labelColor=0f0f2d" />
+      <img src="https://img.shields.io/badge/DataHub-4facfe?style=flat-square&labelColor=0f0f2d" />
     </td>
     <td width="50%" valign="top">
-      <strong><a href="https://github.com/goyal-chintan/intelliOps">OpsPilot</a></strong><br/>
-      <sub>Eval-gated LLM ops infrastructure</sub><br/><br/>
-      A production-shaped reliability copilot with deterministic baselines, tenant-aware scaffolding, governed tool use, and observability-first design.<br/><br/>
-      <code>Layer 0 shipped</code>
-      <code>RAG + citations</code>
-      <code>OpenTelemetry roadmap</code>
+      <h3><a href="https://github.com/goyal-chintan/intelliOps">OpsPilot</a></h3>
+      <sub><code>SHIPPING</code> · eval-gated LLM ops</sub><br/><br/>
+      A production-shaped reliability copilot with deterministic baselines, tenant-aware scaffolding, governed tool use, and observability-first design.
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Layer%200%20shipped-a78bfa?style=flat-square&labelColor=0f0f2d" />
+      <img src="https://img.shields.io/badge/RAG%20%2B%20citations-667eea?style=flat-square&labelColor=0f0f2d" />
+      <img src="https://img.shields.io/badge/OTel%20roadmap-4facfe?style=flat-square&labelColor=0f0f2d" />
     </td>
   </tr>
 </table>
 
-<table>
-  <tr>
-    <td valign="top">
-      <strong>Platform outcomes I care about</strong>
-      <ul>
-        <li>Architecting multi-cloud AWS &lt;-&gt; GCP portability so platforms can scale across environments without forking the core.</li>
-        <li>Restoring interactive analytics performance on month-scale raw data without accepting naive cost blowups.</li>
-        <li>Turning platform cost problems into repeatable engineering leverage through better query plans, workload placement, and operational discipline.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<br/>
 
-<hr/>
+<details>
+<summary><strong>What I optimize for</strong></summary>
+<br/>
 
-<h2>Systems I spend time with</h2>
+| | Principle | Why it matters |
+|:---:|:---|:---|
+| **⬡** | **Portability over lock-in** | Clean integration boundaries so platforms survive cloud and vendor changes without a rewrite |
+| **⬡** | **Performance with cost discipline** | Solutions that improve both latency and unit economics — not one at the expense of the other |
+| **⬡** | **Trust before hype** | Observability, evals, and failure-mode thinking before flashy demos |
 
-<table>
-  <tr>
-    <td width="18%"><strong>Cloud</strong></td>
-    <td>AWS, GCP, Databricks, Kubernetes, EMR on EKS</td>
-  </tr>
-  <tr>
-    <td width="18%"><strong>Data</strong></td>
-    <td>Spark, Airflow, BigQuery, Athena, Kafka, YugabyteDB</td>
-  </tr>
-  <tr>
-    <td width="18%"><strong>AI infra</strong></td>
-    <td>FastAPI, Spring Boot, Postgres / pgvector, OpenTelemetry, eval harnesses, governed tool use</td>
-  </tr>
-  <tr>
-    <td width="18%"><strong>Languages</strong></td>
-    <td>Python, Scala, Java, SQL</td>
-  </tr>
-</table>
+</details>
 
-<hr/>
-
-<h2>Why people usually reach out</h2>
+<details>
+<summary><strong>Systems I spend time with</strong></summary>
+<br/>
 
 <p>
-  Platform architecture under constraint, performance and cost debugging, metadata and governance automation, and LLM systems that need stronger operational discipline.
+  <img src="https://skillicons.dev/icons?i=aws,gcp,kubernetes,docker&theme=dark" alt="Cloud" />&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=python,scala,java&theme=dark" alt="Languages" />&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=postgres,kafka,fastapi,spring&theme=dark" alt="Data & AI" />
 </p>
 
+| Layer | Systems |
+|:---|:---|
+| **Cloud** | AWS, GCP, Databricks, Kubernetes, EMR on EKS |
+| **Data** | Spark, Airflow, BigQuery, Athena, Kafka, YugabyteDB |
+| **AI infra** | FastAPI, Spring Boot, pgvector, OpenTelemetry, eval harnesses |
+| **Languages** | Python, Scala, Java, SQL |
+
+</details>
+
+<details>
+<summary><strong>Platform outcomes I care about</strong></summary>
+<br/>
+
+- Architecting multi-cloud AWS ↔ GCP portability so platforms can scale across environments without forking the core
+- Restoring interactive analytics performance on month-scale raw data without accepting naive cost blowups
+- Turning platform cost problems into repeatable engineering leverage through better query plans, workload placement, and operational discipline
+
+</details>
+
+<br/>
+
+<h2>
+  <img src="https://img.shields.io/badge/%E2%80%8B-0f0f2d?style=flat-square" height="8" width="8" />
+  Let's Talk
+</h2>
+
 <p>
-  If you are building data or AI infrastructure where portability, latency, cost, and trust all matter at the same time, I would love to compare notes.
+  If you're building data or AI infrastructure where portability, latency, cost, and trust all matter at the same time — I'd love to compare notes.
 </p>
 
 <p>
   <a href="mailto:mail.chintan.goyal@gmail.com">
-    <img src="https://img.shields.io/badge/Say%20Hi-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Say hi by email" />
-  </a>
+    <img src="https://img.shields.io/badge/Say%20Hi-667eea?style=for-the-badge&labelColor=0f0f2d&logo=gmail&logoColor=667eea" alt="Say Hi" />
+  </a>&nbsp;
   <a href="https://chintangoyal.com">
-    <img src="https://img.shields.io/badge/Case%20Studies-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Visit website" />
-  </a>
+    <img src="https://img.shields.io/badge/Portfolio-a78bfa?style=for-the-badge&labelColor=0f0f2d&logo=vercel&logoColor=a78bfa" alt="Portfolio" />
+  </a>&nbsp;
   <a href="https://www.linkedin.com/in/chintan-goyal/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" />
+    <img src="https://img.shields.io/badge/Connect-4facfe?style=for-the-badge&labelColor=0f0f2d&logo=linkedin&logoColor=4facfe" alt="LinkedIn" />
   </a>
 </p>
+
+<br/>
 
 <p align="center">
   <sub>I like sharp abstractions, boringly reliable systems, and products that earn their complexity.</sub>
