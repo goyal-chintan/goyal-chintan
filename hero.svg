@@ -1,71 +1,148 @@
-<svg width="880" height="250" viewBox="0 0 880 250" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="880" height="300" viewBox="0 0 880 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Chintan Goyal</title>
-  <desc id="desc">Data and AI infrastructure engineer</desc>
+  <desc id="desc">Data &amp; AI Infrastructure — constellation hero</desc>
 
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="880" y2="250">
-      <stop offset="0" stop-color="#0b0d17"/>
-      <stop offset="1" stop-color="#111827"/>
+    <!-- Node gradient: teal → indigo -->
+    <linearGradient id="nodeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="200" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#6366f1">
-        <animate attributeName="stop-color" values="#6366f1;#8b5cf6;#6366f1" dur="6s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="1" stop-color="#8b5cf6">
-        <animate attributeName="stop-color" values="#8b5cf6;#6366f1;#8b5cf6" dur="6s" repeatCount="indefinite"/>
-      </stop>
-    </linearGradient>
-    <linearGradient id="subtleLine" x1="0" y1="0" x2="880" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#6366f1" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#6366f1" stop-opacity="0.12"/>
-      <stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
-    </linearGradient>
+
+    <!-- Subtle glow filter -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
 
   <!-- Background -->
-  <rect width="880" height="250" fill="url(#bg)"/>
+  <rect width="880" height="300" fill="#0d1117"/>
 
-  <!-- Single subtle horizontal line -->
-  <line x1="0" y1="165" x2="880" y2="165" stroke="url(#subtleLine)" stroke-width="0.5"/>
+  <!-- ======================== -->
+  <!-- RIGHT ZONE: Constellation -->
+  <!-- ======================== -->
+
+  <!-- Connection lines (14 total) -->
+  <g stroke="rgba(255,255,255,0.06)" stroke-width="1">
+    <!-- 1-2 --><line x1="590" y1="65" x2="700" y2="40"/>
+    <!-- 1-4 --><line x1="590" y1="65" x2="640" y2="145"/>
+    <!-- 2-3 --><line x1="700" y1="40" x2="800" y2="70"/>
+    <!-- 2-5 --><line x1="700" y1="40" x2="750" y2="130"/>
+    <!-- 3-5 --><line x1="800" y1="70" x2="750" y2="130"/>
+    <!-- 3-6 --><line x1="800" y1="70" x2="830" y2="170"/>
+    <!-- 4-5 --><line x1="640" y1="145" x2="750" y2="130"/>
+    <!-- 4-7 --><line x1="640" y1="145" x2="570" y2="230"/>
+    <!-- 4-8 --><line x1="640" y1="145" x2="690" y2="220"/>
+    <!-- 5-6 --><line x1="750" y1="130" x2="830" y2="170"/>
+    <!-- 5-8 --><line x1="750" y1="130" x2="690" y2="220"/>
+    <!-- 7-8 --><line x1="570" y1="230" x2="690" y2="220"/>
+    <!-- 8-9 --><line x1="690" y1="220" x2="790" y2="255"/>
+    <!-- 6-9 --><line x1="830" y1="170" x2="790" y2="255"/>
+  </g>
+
+  <!-- Nodes (9 total) with independent pulse animations -->
+  <!-- Node 1: (590,65) r=7 -->
+  <circle cx="590" cy="65" r="7" fill="url(#nodeGrad)" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="3.0s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Node 2: (700,40) r=5 -->
+  <circle cx="700" cy="40" r="5" fill="url(#nodeGrad)" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Node 3: (800,70) r=8 -->
+  <circle cx="800" cy="70" r="8" fill="url(#nodeGrad)" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Node 4: (640,145) r=9 — hub -->
+  <circle cx="640" cy="145" r="9" fill="url(#nodeGrad)" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="4.0s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Node 5: (750,130) r=6 -->
+  <circle cx="750" cy="130" r="6" fill="url(#nodeGrad)" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Node 6: (830,170) r=7 -->
+  <circle cx="830" cy="170" r="7" fill="url(#nodeGrad)" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Node 7: (570,230) r=5 -->
+  <circle cx="570" cy="230" r="5" fill="url(#nodeGrad)" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="3.8s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Node 8: (690,220) r=7 -->
+  <circle cx="690" cy="220" r="7" fill="url(#nodeGrad)" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="4.2s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Node 9: (790,255) r=4 -->
+  <circle cx="790" cy="255" r="4" fill="url(#nodeGrad)" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="2.7s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Signal dot A: path 1→4→5→6→9, 8s cycle -->
+  <circle r="2.5" fill="#38bdf8" opacity="0.9">
+    <animateMotion dur="8s" repeatCount="indefinite"
+      path="M590,65 L640,145 L750,130 L830,170 L790,255"/>
+  </circle>
+
+  <!-- Signal dot B: path 2→1→4→7→8, 10s cycle, begin 3s -->
+  <circle r="2.5" fill="#818cf8" opacity="0.9">
+    <animateMotion dur="10s" repeatCount="indefinite" begin="3s"
+      path="M700,40 L590,65 L640,145 L570,230 L690,220"/>
+  </circle>
+
+  <!-- ======================== -->
+  <!-- LEFT ZONE: Text content  -->
+  <!-- ======================== -->
 
   <!-- Name -->
-  <text x="48" y="72" fill="#f8fafc" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="52" font-weight="700" letter-spacing="-1.5">Chintan Goyal</text>
+  <text x="50" y="85" fill="#f0f0f0" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="40" font-weight="600" opacity="0">
+    Chintan Goyal
+    <animate attributeName="opacity" from="0" to="1" dur="0.8s" fill="freeze"/>
+  </text>
 
-  <!-- Role line -->
-  <text x="50" y="104" fill="#94a3b8" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="18" font-weight="400">Data &amp; AI infrastructure · multi-cloud platforms · systems architecture</text>
+  <!-- Subtitle -->
+  <text x="50" y="115" fill="#8b949e" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="16" font-weight="400" opacity="0">
+    Data &amp; AI Infrastructure
+    <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0.2s" fill="freeze"/>
+  </text>
 
-  <!-- Accent bar (only animation that matters) -->
-  <rect x="48" y="118" width="0" height="2.5" rx="1.25" fill="url(#accent)">
-    <animate attributeName="width" from="0" to="100" dur="1.2s" fill="freeze"/>
-  </rect>
+  <!-- Metric pills -->
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.5s" fill="freeze"/>
 
-  <!-- Metric pills - readable size -->
-  <g>
-    <rect x="48" y="138" width="100" height="22" rx="11" fill="#1e1b4b" fill-opacity="0.5" stroke="#6366f1" stroke-opacity="0.2" stroke-width="0.5"/>
-    <text x="98" y="153" text-anchor="middle" fill="#a5b4fc" font-family="'SF Mono','Fira Code','JetBrains Mono',monospace" font-size="11" font-weight="500">~15M users</text>
+    <!-- Pill 1: ~550 PB -->
+    <rect x="50" y="155" width="78" height="26" rx="13"
+      fill="rgba(56,189,248,0.08)" stroke="rgba(56,189,248,0.25)" stroke-width="1"/>
+    <text x="89" y="173" text-anchor="middle" fill="#8b949e"
+      font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="12" font-weight="500">~550 PB</text>
+
+    <!-- Pill 2: ~15M users -->
+    <rect x="138" y="155" width="92" height="26" rx="13"
+      fill="rgba(56,189,248,0.08)" stroke="rgba(56,189,248,0.25)" stroke-width="1"/>
+    <text x="184" y="173" text-anchor="middle" fill="#8b949e"
+      font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="12" font-weight="500">~15M users</text>
+
+    <!-- Pill 3: p95 ~30s -->
+    <rect x="240" y="155" width="82" height="26" rx="13"
+      fill="rgba(56,189,248,0.08)" stroke="rgba(56,189,248,0.25)" stroke-width="1"/>
+    <text x="281" y="173" text-anchor="middle" fill="#8b949e"
+      font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="12" font-weight="500">p95 ~30s</text>
+
+    <!-- Pill 4: ~$10M saved -->
+    <rect x="332" y="155" width="98" height="26" rx="13"
+      fill="rgba(56,189,248,0.08)" stroke="rgba(56,189,248,0.25)" stroke-width="1"/>
+    <text x="381" y="173" text-anchor="middle" fill="#8b949e"
+      font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="12" font-weight="500">~$10M saved</text>
   </g>
-  <g>
-    <rect x="160" y="138" width="82" height="22" rx="11" fill="#1e1b4b" fill-opacity="0.5" stroke="#6366f1" stroke-opacity="0.2" stroke-width="0.5"/>
-    <text x="201" y="153" text-anchor="middle" fill="#a5b4fc" font-family="'SF Mono','Fira Code','JetBrains Mono',monospace" font-size="11" font-weight="500">~50 PB</text>
-  </g>
-  <g>
-    <rect x="254" y="138" width="96" height="22" rx="11" fill="#1e1b4b" fill-opacity="0.5" stroke="#6366f1" stroke-opacity="0.2" stroke-width="0.5"/>
-    <text x="302" y="153" text-anchor="middle" fill="#a5b4fc" font-family="'SF Mono','Fira Code','JetBrains Mono',monospace" font-size="11" font-weight="500">p95 ~30s</text>
-  </g>
-  <g>
-    <rect x="362" y="138" width="130" height="22" rx="11" fill="#1e1b4b" fill-opacity="0.5" stroke="#6366f1" stroke-opacity="0.2" stroke-width="0.5"/>
-    <text x="427" y="153" text-anchor="middle" fill="#a5b4fc" font-family="'SF Mono','Fira Code','JetBrains Mono',monospace" font-size="11" font-weight="500">~$100k/mo saved</text>
-  </g>
 
-  <!-- Bottom section: what I'm building -->
-  <text x="48" y="196" fill="#64748b" font-family="'SF Mono','Fira Code','JetBrains Mono',monospace" font-size="11" font-weight="500" letter-spacing="1">NOW</text>
-  <text x="48" y="220" fill="#cbd5e1" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="15" font-weight="500">Project Lumos</text>
-  <text x="180" y="220" fill="#475569" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="15" font-weight="400">metadata automation</text>
-  <text x="390" y="220" fill="#334155" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="15">·</text>
-  <text x="414" y="220" fill="#cbd5e1" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="15" font-weight="500">OpsPilot</text>
-  <text x="504" y="220" fill="#475569" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="15" font-weight="400">eval-gated LLM ops</text>
-
-  <!-- Tagline -->
-  <text x="48" y="244" fill="#334155" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="12" font-weight="400">Boring, reliable systems that earn their complexity.</text>
+  <!-- Descriptor line -->
+  <text x="50" y="210" fill="#484f58" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="13" font-weight="400" opacity="0">
+    multi-cloud · telecom · fintech · analytics
+    <animate attributeName="opacity" from="0" to="0.8" dur="0.6s" begin="0.7s" fill="freeze"/>
+  </text>
 
 </svg>
