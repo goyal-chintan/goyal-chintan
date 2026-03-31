@@ -28,11 +28,11 @@ Started on a ~500 PB Hadoop cluster at Infosys, tuning Spark jobs until they ran
 
 ### Systems I work with
 
-**Cloud** — AWS · GCP · Databricks
-**Compute** — Spark · Scala · Python · SQL
-**Storage** — S3 · BigQuery · Snowflake · Delta · Iceberg
-**Orchestration** — Airflow · Step Functions · Lambda
-**Observe** — OpenTelemetry · Grafana · OpsGenie
+**Cloud** — AWS · GCP · Databricks  
+**Compute** — Spark · Scala · Python · SQL  
+**Storage** — S3 · BigQuery · Snowflake · Delta · Iceberg  
+**Orchestration** — Airflow · Step Functions · Lambda  
+**Observe** — OpenTelemetry · Grafana · OpsGenie  
 **Frontend** — Next.js · TypeScript · Swift
 
 ---
