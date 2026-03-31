@@ -22,7 +22,7 @@ Started on a ~500 PB Hadoop cluster at Infosys, tuning Spark jobs until they ran
 
 **[FocusFlow](https://github.com/goyal-chintan/focus-flow)** — native macOS menu bar focus timer with on-device AI coaching, session analytics, and distraction blocking. Built in Swift.
 
-**[ai-agent-skills](https://github.com/goyal-chintan/ai-agent-skills)** — curated library of 34 reusable skills for AI coding assistants across planning, debugging, development, and review workflows.
+**[OpsPilot](https://github.com/goyal-chintan/intelliOps)** — eval-gated LLM ops tooling for infrastructure. Governed tool use, OpenTelemetry observability, and deterministic runbooks before any AI-driven action.
 
 ---
 
