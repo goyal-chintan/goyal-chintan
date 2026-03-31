@@ -35,8 +35,8 @@
   <!-- Radial layout centered on "transform" hub -->
   <!-- Nodes: source, ingest, ML, transform(hub), cache, store, orchestrate, serve, observe, edge, alert -->
 
-  <!-- Connection lines — organic curves via quadratic bezier -->
-  <g stroke="rgba(255,255,255,0.06)" stroke-width="1" fill="none">
+  <!-- Connection lines — organic curves, tinted teal -->
+  <g stroke="rgba(56,189,248,0.12)" stroke-width="1" fill="none">
     <!-- source → ingest -->
     <path d="M525,42 Q570,50 615,68"/>
     <!-- ingest → transform -->
@@ -70,70 +70,70 @@
   </g>
 
   <!-- Hub ring — pulsing outer ring on transform node -->
-  <circle cx="715" cy="118" r="18" fill="none" stroke="url(#nodeGrad)" stroke-width="0.5" opacity="0.15">
-    <animate attributeName="r" values="18;22;18" dur="5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.15;0.05;0.15" dur="5s" repeatCount="indefinite"/>
+  <circle cx="715" cy="118" r="18" fill="none" stroke="url(#nodeGrad)" stroke-width="0.8" opacity="0.2">
+    <animate attributeName="r" values="18;24;18" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;0.06;0.2" dur="5s" repeatCount="indefinite"/>
   </circle>
 
   <!-- Nodes — sized by importance, colored by function -->
 
-  <!-- source (525,42) r=3 — tiny outlier, data origin -->
-  <circle cx="525" cy="42" r="3" fill="url(#nodeGrad)" filter="url(#glow)">
-    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="4.5s" repeatCount="indefinite"/>
+  <!-- source (525,42) r=3.5 — data origin -->
+  <circle cx="525" cy="42" r="3.5" fill="url(#nodeGrad)" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.5;0.85;0.5" dur="4.5s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- ingest (615,68) r=6 -->
-  <circle cx="615" cy="68" r="6" fill="url(#nodeGrad)" filter="url(#glow)">
-    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="3.2s" repeatCount="indefinite"/>
+  <!-- ingest (615,68) r=7 -->
+  <circle cx="615" cy="68" r="7" fill="url(#nodeGrad)" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3.2s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- ML (695,32) r=5 — floats above the hub -->
-  <circle cx="695" cy="32" r="5" fill="url(#nodeGradWarm)" filter="url(#glow)">
-    <animate attributeName="opacity" values="0.4;0.85;0.4" dur="3.8s" repeatCount="indefinite"/>
+  <!-- ML (695,32) r=6 — floats above the hub -->
+  <circle cx="695" cy="32" r="6" fill="url(#nodeGradWarm)" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.55;0.95;0.55" dur="3.8s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- transform (715,118) r=11 — HUB, largest node -->
-  <circle cx="715" cy="118" r="11" fill="url(#nodeGrad)" filter="url(#glowStrong)">
-    <animate attributeName="opacity" values="0.65;1;0.65" dur="4.2s" repeatCount="indefinite"/>
+  <!-- transform (715,118) r=12 — HUB, largest node -->
+  <circle cx="715" cy="118" r="12" fill="url(#nodeGrad)" filter="url(#glowStrong)">
+    <animate attributeName="opacity" values="0.75;1;0.75" dur="4.2s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- cache (805,52) r=3.5 — tiny, performance -->
-  <circle cx="805" cy="52" r="3.5" fill="url(#nodeGrad)" filter="url(#glow)">
-    <animate attributeName="opacity" values="0.3;0.65;0.3" dur="2.8s" repeatCount="indefinite"/>
+  <!-- cache (805,52) r=4 — performance -->
+  <circle cx="805" cy="52" r="4" fill="url(#nodeGrad)" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.45;0.8;0.45" dur="2.8s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- store (830,135) r=8 — large, persistence -->
-  <circle cx="830" cy="135" r="8" fill="url(#nodeGrad)" filter="url(#glow)">
-    <animate attributeName="opacity" values="0.55;0.95;0.55" dur="3.5s" repeatCount="indefinite"/>
+  <!-- store (830,135) r=9 — large, persistence -->
+  <circle cx="830" cy="135" r="9" fill="url(#nodeGrad)" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.65;1;0.65" dur="3.5s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- orchestrate (578,185) r=4.5 — small, workflow -->
-  <circle cx="578" cy="185" r="4.5" fill="url(#nodeGradWarm)" filter="url(#glow)">
-    <animate attributeName="opacity" values="0.35;0.75;0.35" dur="4s" repeatCount="indefinite"/>
+  <!-- orchestrate (578,185) r=5 — workflow -->
+  <circle cx="578" cy="185" r="5" fill="url(#nodeGradWarm)" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.5;0.85;0.5" dur="4s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- serve (695,215) r=6 — medium, delivery -->
-  <circle cx="695" cy="215" r="6" fill="url(#nodeGrad)" filter="url(#glow)">
-    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="3s" repeatCount="indefinite"/>
+  <!-- serve (695,215) r=7 — delivery -->
+  <circle cx="695" cy="215" r="7" fill="url(#nodeGrad)" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- observe (815,222) r=5 — medium, monitoring -->
-  <circle cx="815" cy="222" r="5" fill="url(#nodeGradWarm)" filter="url(#glow)">
-    <animate attributeName="opacity" values="0.4;0.8;0.4" dur="3.6s" repeatCount="indefinite"/>
+  <!-- observe (815,222) r=6 — monitoring -->
+  <circle cx="815" cy="222" r="6" fill="url(#nodeGradWarm)" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.55;0.9;0.55" dur="3.6s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- edge (532,245) r=3 — tiny outlier, IoT -->
-  <circle cx="532" cy="245" r="3" fill="url(#nodeGrad)" filter="url(#glow)">
-    <animate attributeName="opacity" values="0.25;0.55;0.25" dur="5s" repeatCount="indefinite"/>
+  <!-- edge (532,245) r=3.5 — IoT outlier -->
+  <circle cx="532" cy="245" r="3.5" fill="url(#nodeGrad)" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.4;0.75;0.4" dur="5s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- alert (862,188) r=3 — tiny outlier, alerting -->
-  <circle cx="862" cy="188" r="3" fill="url(#nodeGradWarm)" filter="url(#glow)">
-    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3.4s" repeatCount="indefinite"/>
+  <!-- alert (862,188) r=3.5 — alerting -->
+  <circle cx="862" cy="188" r="3.5" fill="url(#nodeGradWarm)" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.45;0.8;0.45" dur="3.4s" repeatCount="indefinite"/>
   </circle>
 
   <!-- Node labels — very faint, only on key nodes -->
-  <g font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="8" fill="rgba(255,255,255,0.12)" font-weight="400">
+  <g font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="8" fill="rgba(255,255,255,0.2)" font-weight="400">
     <text x="615" y="58">ingest</text>
     <text x="695" y="23">ML</text>
     <text x="730" y="115">transform</text>
@@ -143,24 +143,24 @@
   </g>
 
   <!-- Signal dot A: data pipeline — source→ingest→transform→store→observe→alert (10s) -->
-  <circle cx="525" cy="42" r="2.5" fill="#38bdf8" opacity="0">
+  <circle cx="525" cy="42" r="3" fill="#38bdf8" opacity="0">
     <animateMotion dur="10s" repeatCount="indefinite"
       path="M525,42 Q570,50 615,68 Q665,85 715,118 Q775,120 830,135 Q828,175 815,222 Q840,205 862,188"/>
-    <animate attributeName="opacity" values="0;0.9;0.9;0.9;0.9;0" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;1;1;0" dur="10s" repeatCount="indefinite"/>
   </circle>
 
   <!-- Signal dot B: ML inference — ingest→ML→serve→observe (12s, begin 4s) -->
-  <circle cx="615" cy="68" r="2" fill="#a78bfa" opacity="0">
+  <circle cx="615" cy="68" r="2.5" fill="#a78bfa" opacity="0">
     <animateMotion dur="12s" repeatCount="indefinite" begin="4s"
       path="M615,68 Q650,42 695,32 Q660,125 695,215 Q755,222 815,222"/>
-    <animate attributeName="opacity" values="0;0.7;0.7;0.7;0" dur="12s" repeatCount="indefinite" begin="4s"/>
+    <animate attributeName="opacity" values="0;0.9;0.9;0.9;0" dur="12s" repeatCount="indefinite" begin="4s"/>
   </circle>
 
   <!-- Signal dot C: edge processing — transform→orchestrate→edge (8s, begin 2s) -->
-  <circle cx="715" cy="118" r="1.5" fill="#818cf8" opacity="0">
+  <circle cx="715" cy="118" r="2" fill="#818cf8" opacity="0">
     <animateMotion dur="8s" repeatCount="indefinite" begin="2s"
       path="M715,118 Q645,145 578,185 Q555,210 532,245"/>
-    <animate attributeName="opacity" values="0;0.6;0.6;0.6;0" dur="8s" repeatCount="indefinite" begin="2s"/>
+    <animate attributeName="opacity" values="0;0.8;0.8;0.8;0" dur="8s" repeatCount="indefinite" begin="2s"/>
   </circle>
 
   <!-- ======================== -->
