@@ -1,241 +1,71 @@
-<svg width="880" height="320" viewBox="0 0 880 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="880" height="250" viewBox="0 0 880 250" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Chintan Goyal</title>
-  <desc id="desc">Premium animated hero banner — data and AI infrastructure</desc>
+  <desc id="desc">Data and AI infrastructure engineer</desc>
 
   <defs>
-    <!-- Background gradient -->
-    <linearGradient id="bg" x1="0" y1="0" x2="880" y2="320">
-      <stop offset="0" stop-color="#0a0a1a"/>
-      <stop offset="0.4" stop-color="#0c0e21"/>
-      <stop offset="1" stop-color="#0f1029"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="880" y2="250">
+      <stop offset="0" stop-color="#0b0d17"/>
+      <stop offset="1" stop-color="#111827"/>
     </linearGradient>
-
-    <!-- Animated accent gradient (border + accents) -->
-    <linearGradient id="accentGrad" x1="0" y1="0" x2="880" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#667eea">
-        <animate attributeName="stop-color" values="#667eea;#a78bfa;#667eea" dur="4s" repeatCount="indefinite"/>
+    <linearGradient id="accent" x1="0" y1="0" x2="200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6366f1">
+        <animate attributeName="stop-color" values="#6366f1;#8b5cf6;#6366f1" dur="6s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="0.5" stop-color="#a78bfa">
-        <animate attributeName="stop-color" values="#a78bfa;#4facfe;#a78bfa" dur="4s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="1" stop-color="#4facfe">
-        <animate attributeName="stop-color" values="#4facfe;#667eea;#4facfe" dur="4s" repeatCount="indefinite"/>
+      <stop offset="1" stop-color="#8b5cf6">
+        <animate attributeName="stop-color" values="#8b5cf6;#6366f1;#8b5cf6" dur="6s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
-
-    <!-- Orb gradients -->
-    <radialGradient id="orb1" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#667eea" stop-opacity="0.25"/>
-      <stop offset="1" stop-color="#667eea" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="orb2" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#a78bfa" stop-opacity="0.2"/>
-      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="orb3" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#4facfe" stop-opacity="0.15"/>
-      <stop offset="1" stop-color="#4facfe" stop-opacity="0"/>
-    </radialGradient>
-
-    <!-- Line gradients -->
-    <linearGradient id="line1" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#667eea" stop-opacity="0"/>
-      <stop offset="0.3" stop-color="#667eea" stop-opacity="0.35"/>
-      <stop offset="0.7" stop-color="#a78bfa" stop-opacity="0.25"/>
-      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    <linearGradient id="subtleLine" x1="0" y1="0" x2="880" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6366f1" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#6366f1" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="line2" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#a78bfa" stop-opacity="0"/>
-      <stop offset="0.4" stop-color="#4facfe" stop-opacity="0.3"/>
-      <stop offset="0.8" stop-color="#667eea" stop-opacity="0.2"/>
-      <stop offset="1" stop-color="#667eea" stop-opacity="0"/>
-    </linearGradient>
-
-    <!-- Glass card fill -->
-    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.06"/>
-      <stop offset="1" stop-color="#ffffff" stop-opacity="0.015"/>
-    </linearGradient>
-    <linearGradient id="glassBorder" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.12"/>
-      <stop offset="1" stop-color="#ffffff" stop-opacity="0.03"/>
-    </linearGradient>
-
-    <!-- Soft glow filter -->
-    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="30" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-    </filter>
-    <filter id="tinyGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="4"/>
-    </filter>
   </defs>
 
-  <!-- ===== BACKGROUND ===== -->
-  <rect width="880" height="320" fill="url(#bg)"/>
+  <!-- Background -->
+  <rect width="880" height="250" fill="url(#bg)"/>
 
-  <!-- Animated border with color-shifting gradient -->
-  <rect x="0.75" y="0.75" width="878.5" height="318.5" rx="0" fill="none" stroke="url(#accentGrad)" stroke-width="1.5">
-    <animate attributeName="stroke-opacity" values="0.3;0.6;0.3" dur="4s" repeatCount="indefinite"/>
-  </rect>
+  <!-- Single subtle horizontal line -->
+  <line x1="0" y1="165" x2="880" y2="165" stroke="url(#subtleLine)" stroke-width="0.5"/>
 
-  <!-- ===== FLOATING ORBS (SMIL animated) ===== -->
-  <g filter="url(#softGlow)">
-    <!-- Orb 1: top-left, slow drift -->
-    <ellipse cx="140" cy="90" rx="130" ry="100" fill="url(#orb1)">
-      <animate attributeName="cx" values="140;170;140" dur="8s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="90;70;90" dur="8s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.6;1;0.6" dur="8s" repeatCount="indefinite"/>
-    </ellipse>
-    <!-- Orb 2: bottom-right, slow drift -->
-    <ellipse cx="760" cy="250" rx="150" ry="110" fill="url(#orb2)">
-      <animate attributeName="cx" values="760;730;760" dur="10s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="250;270;250" dur="10s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.5;0.9;0.5" dur="10s" repeatCount="indefinite"/>
-    </ellipse>
-    <!-- Orb 3: center, subtle -->
-    <ellipse cx="480" cy="50" rx="100" ry="70" fill="url(#orb3)">
-      <animate attributeName="cx" values="480;500;480" dur="12s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="50;65;50" dur="12s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="12s" repeatCount="indefinite"/>
-    </ellipse>
-  </g>
-
-  <!-- ===== FLOWING DATA LINES ===== -->
-  <path d="M0 190 Q 140 155, 280 170 Q 420 185, 560 160 Q 700 135, 880 155" stroke="url(#line1)" stroke-width="1" fill="none" stroke-dasharray="8 6">
-    <animate attributeName="stroke-dashoffset" from="0" to="-28" dur="2s" repeatCount="indefinite"/>
-  </path>
-  <path d="M0 230 Q 180 205, 360 218 Q 540 231, 680 210 Q 800 195, 880 205" stroke="url(#line2)" stroke-width="0.8" fill="none" stroke-dasharray="6 8">
-    <animate attributeName="stroke-dashoffset" from="0" to="28" dur="3s" repeatCount="indefinite"/>
-  </path>
-  <path d="M0 268 Q 220 248, 440 258 Q 600 268, 750 250 Q 830 242, 880 248" stroke="url(#line1)" stroke-width="0.5" fill="none" stroke-dasharray="4 10" opacity="0.5">
-    <animate attributeName="stroke-dashoffset" from="0" to="-28" dur="4s" repeatCount="indefinite"/>
-  </path>
-
-  <!-- ===== PULSING NETWORK NODES ===== -->
-  <g filter="url(#tinyGlow)">
-    <circle cx="280" cy="170" r="3" fill="#667eea">
-      <animate attributeName="r" values="2;4;2" dur="3s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="560" cy="160" r="3" fill="#a78bfa">
-      <animate attributeName="r" values="2;4;2" dur="3s" begin="1s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" begin="1s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="680" cy="210" r="3" fill="#4facfe">
-      <animate attributeName="r" values="2;4;2" dur="3s" begin="2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" begin="2s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <!-- ===== FLOATING ARCHITECTURE LABELS (right side) ===== -->
-  <g opacity="0.5">
-    <rect x="710" y="38" width="52" height="22" rx="4" fill="none" stroke="#667eea" stroke-opacity="0.25" stroke-width="0.7"/>
-    <text x="736" y="53" text-anchor="middle" fill="#667eea" font-family="'SF Mono','Fira Code',monospace" font-size="9" opacity="0.7">AWS</text>
-    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="5s" repeatCount="indefinite"/>
-  </g>
-  <g opacity="0.5">
-    <rect x="772" y="58" width="52" height="22" rx="4" fill="none" stroke="#a78bfa" stroke-opacity="0.25" stroke-width="0.7"/>
-    <text x="798" y="73" text-anchor="middle" fill="#a78bfa" font-family="'SF Mono','Fira Code',monospace" font-size="9" opacity="0.7">GCP</text>
-    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="5s" begin="0.8s" repeatCount="indefinite"/>
-  </g>
-  <g opacity="0.5">
-    <rect x="730" y="84" width="66" height="22" rx="4" fill="none" stroke="#4facfe" stroke-opacity="0.25" stroke-width="0.7"/>
-    <text x="763" y="99" text-anchor="middle" fill="#4facfe" font-family="'SF Mono','Fira Code',monospace" font-size="9" opacity="0.7">Spark</text>
-    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="5s" begin="1.6s" repeatCount="indefinite"/>
-  </g>
-  <!-- Connector lines between nodes -->
-  <line x1="736" y1="60" x2="772" y2="61" stroke="#667eea" stroke-opacity="0.12" stroke-width="0.5"/>
-  <line x1="798" y1="80" x2="763" y2="87" stroke="#a78bfa" stroke-opacity="0.12" stroke-width="0.5"/>
-
-  <!-- ===== MAIN TYPOGRAPHY ===== -->
   <!-- Name -->
-  <text x="52" y="82" fill="#ffffff" font-family="'Inter','SF Pro Display',-apple-system,sans-serif" font-size="50" font-weight="700" letter-spacing="-1.5">
-    Chintan Goyal
-    <animate attributeName="opacity" from="0" to="1" dur="1s" fill="freeze"/>
-  </text>
+  <text x="48" y="72" fill="#f8fafc" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="52" font-weight="700" letter-spacing="-1.5">Chintan Goyal</text>
 
-  <!-- Subtitle line -->
-  <text x="54" y="112" fill="#8b95b0" font-family="'Inter','SF Pro Display',-apple-system,sans-serif" font-size="15" font-weight="400" letter-spacing="0.3">
-    Data &amp; AI Infrastructure · Systems Architecture · Platform Engineering
-    <animate attributeName="opacity" from="0" to="0.7" dur="1s" begin="0.3s" fill="freeze"/>
-  </text>
+  <!-- Role line -->
+  <text x="50" y="104" fill="#94a3b8" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="18" font-weight="400">Data &amp; AI infrastructure · multi-cloud platforms · systems architecture</text>
 
-  <!-- Accent bar -->
-  <rect x="52" y="124" width="0" height="2" rx="1" fill="url(#accentGrad)">
-    <animate attributeName="width" from="0" to="120" dur="0.8s" begin="0.6s" fill="freeze"/>
+  <!-- Accent bar (only animation that matters) -->
+  <rect x="48" y="118" width="0" height="2.5" rx="1.25" fill="url(#accent)">
+    <animate attributeName="width" from="0" to="100" dur="1.2s" fill="freeze"/>
   </rect>
 
-  <!-- ===== METRIC PILLS ===== -->
-  <!-- Pill 1: ~15M users -->
-  <g opacity="0">
-    <rect x="52" y="142" width="108" height="28" rx="14" fill="url(#glass)" stroke="url(#glassBorder)" stroke-width="0.7"/>
-    <text x="106" y="160" text-anchor="middle" fill="#c4b5fd" font-family="'SF Mono','Fira Code',monospace" font-size="11" font-weight="500">~15M users</text>
-    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="1s" fill="freeze"/>
+  <!-- Metric pills - readable size -->
+  <g>
+    <rect x="48" y="138" width="100" height="22" rx="11" fill="#1e1b4b" fill-opacity="0.5" stroke="#6366f1" stroke-opacity="0.2" stroke-width="0.5"/>
+    <text x="98" y="153" text-anchor="middle" fill="#a5b4fc" font-family="'SF Mono','Fira Code','JetBrains Mono',monospace" font-size="11" font-weight="500">~15M users</text>
   </g>
-  <!-- Pill 2: ~50 PB -->
-  <g opacity="0">
-    <rect x="170" y="142" width="90" height="28" rx="14" fill="url(#glass)" stroke="url(#glassBorder)" stroke-width="0.7"/>
-    <text x="215" y="160" text-anchor="middle" fill="#93c5fd" font-family="'SF Mono','Fira Code',monospace" font-size="11" font-weight="500">~50 PB</text>
-    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="1.2s" fill="freeze"/>
+  <g>
+    <rect x="160" y="138" width="82" height="22" rx="11" fill="#1e1b4b" fill-opacity="0.5" stroke="#6366f1" stroke-opacity="0.2" stroke-width="0.5"/>
+    <text x="201" y="153" text-anchor="middle" fill="#a5b4fc" font-family="'SF Mono','Fira Code','JetBrains Mono',monospace" font-size="11" font-weight="500">~50 PB</text>
   </g>
-  <!-- Pill 3: p95 ~30s -->
-  <g opacity="0">
-    <rect x="270" y="142" width="104" height="28" rx="14" fill="url(#glass)" stroke="url(#glassBorder)" stroke-width="0.7"/>
-    <text x="322" y="160" text-anchor="middle" fill="#a78bfa" font-family="'SF Mono','Fira Code',monospace" font-size="11" font-weight="500">p95 ~30s</text>
-    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="1.4s" fill="freeze"/>
+  <g>
+    <rect x="254" y="138" width="96" height="22" rx="11" fill="#1e1b4b" fill-opacity="0.5" stroke="#6366f1" stroke-opacity="0.2" stroke-width="0.5"/>
+    <text x="302" y="153" text-anchor="middle" fill="#a5b4fc" font-family="'SF Mono','Fira Code','JetBrains Mono',monospace" font-size="11" font-weight="500">p95 ~30s</text>
   </g>
-  <!-- Pill 4: ~$100k/mo saved -->
-  <g opacity="0">
-    <rect x="384" y="142" width="136" height="28" rx="14" fill="url(#glass)" stroke="url(#glassBorder)" stroke-width="0.7"/>
-    <text x="452" y="160" text-anchor="middle" fill="#7dd3fc" font-family="'SF Mono','Fira Code',monospace" font-size="11" font-weight="500">~$100k/mo saved</text>
-    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="1.6s" fill="freeze"/>
+  <g>
+    <rect x="362" y="138" width="130" height="22" rx="11" fill="#1e1b4b" fill-opacity="0.5" stroke="#6366f1" stroke-opacity="0.2" stroke-width="0.5"/>
+    <text x="427" y="153" text-anchor="middle" fill="#a5b4fc" font-family="'SF Mono','Fira Code','JetBrains Mono',monospace" font-size="11" font-weight="500">~$100k/mo saved</text>
   </g>
 
-  <!-- ===== PROJECT CARDS ===== -->
-  <!-- Card 1: Project Lumos -->
-  <g opacity="0">
-    <rect x="52" y="190" width="250" height="86" rx="10" fill="url(#glass)" stroke="url(#glassBorder)" stroke-width="0.7"/>
-    <text x="70" y="214" fill="#667eea" font-family="'SF Mono','Fira Code',monospace" font-size="9" font-weight="600" letter-spacing="1.5">BUILDING</text>
-    <text x="70" y="236" fill="#e2e8f0" font-family="'Inter','SF Pro Display',sans-serif" font-size="15" font-weight="600">Project Lumos</text>
-    <text x="70" y="258" fill="#64748b" font-family="'Inter','SF Pro Display',sans-serif" font-size="11">Metadata automation · catalog-agnostic</text>
-    <!-- Decorative dot -->
-    <circle cx="280" cy="202" r="4" fill="#667eea" opacity="0.2">
-      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="3s" repeatCount="indefinite"/>
-    </circle>
-    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="1.8s" fill="freeze"/>
-  </g>
+  <!-- Bottom section: what I'm building -->
+  <text x="48" y="196" fill="#64748b" font-family="'SF Mono','Fira Code','JetBrains Mono',monospace" font-size="11" font-weight="500" letter-spacing="1">NOW</text>
+  <text x="48" y="220" fill="#cbd5e1" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="15" font-weight="500">Project Lumos</text>
+  <text x="180" y="220" fill="#475569" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="15" font-weight="400">metadata automation</text>
+  <text x="390" y="220" fill="#334155" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="15">·</text>
+  <text x="414" y="220" fill="#cbd5e1" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="15" font-weight="500">OpsPilot</text>
+  <text x="504" y="220" fill="#475569" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="15" font-weight="400">eval-gated LLM ops</text>
 
-  <!-- Card 2: OpsPilot -->
-  <g opacity="0">
-    <rect x="316" y="190" width="250" height="86" rx="10" fill="url(#glass)" stroke="url(#glassBorder)" stroke-width="0.7"/>
-    <text x="334" y="214" fill="#a78bfa" font-family="'SF Mono','Fira Code',monospace" font-size="9" font-weight="600" letter-spacing="1.5">SHIPPING</text>
-    <text x="334" y="236" fill="#e2e8f0" font-family="'Inter','SF Pro Display',sans-serif" font-size="15" font-weight="600">OpsPilot</text>
-    <text x="334" y="258" fill="#64748b" font-family="'Inter','SF Pro Display',sans-serif" font-size="11">Eval-gated LLM ops · reliability copilot</text>
-    <!-- Decorative dot -->
-    <circle cx="544" cy="202" r="4" fill="#a78bfa" opacity="0.2">
-      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="3s" begin="1s" repeatCount="indefinite"/>
-    </circle>
-    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="2s" fill="freeze"/>
-  </g>
-
-  <!-- Card 3: Platform -->
-  <g opacity="0">
-    <rect x="580" y="190" width="264" height="86" rx="10" fill="url(#glass)" stroke="url(#glassBorder)" stroke-width="0.7"/>
-    <text x="598" y="214" fill="#4facfe" font-family="'SF Mono','Fira Code',monospace" font-size="9" font-weight="600" letter-spacing="1.5">PLATFORM</text>
-    <text x="598" y="236" fill="#e2e8f0" font-family="'Inter','SF Pro Display',sans-serif" font-size="15" font-weight="600">Multi-Cloud at ISP Scale</text>
-    <text x="598" y="258" fill="#64748b" font-family="'Inter','SF Pro Display',sans-serif" font-size="11">AWS ↔ GCP · Spark · BigQuery · Airflow</text>
-    <!-- Decorative dot -->
-    <circle cx="822" cy="202" r="4" fill="#4facfe" opacity="0.2">
-      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="3s" begin="2s" repeatCount="indefinite"/>
-    </circle>
-    <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="2.2s" fill="freeze"/>
-  </g>
-
-  <!-- ===== BOTTOM TAGLINE ===== -->
-  <text x="52" y="306" fill="#4a5568" font-family="'Inter','SF Pro Display',sans-serif" font-size="12" font-weight="400" letter-spacing="0.3">
-    Built for scale, cost discipline, portability, and trust.
-    <animate attributeName="opacity" from="0" to="0.6" dur="1s" begin="2.5s" fill="freeze"/>
-  </text>
+  <!-- Tagline -->
+  <text x="48" y="244" fill="#334155" font-family="'Inter','SF Pro Display',-apple-system,system-ui,sans-serif" font-size="12" font-weight="400">Boring, reliable systems that earn their complexity.</text>
 
 </svg>
