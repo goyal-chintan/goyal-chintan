@@ -1,87 +1,45 @@
-<p align="center">
-  <img src="./hero.svg" alt="Chintan Goyal — Data & AI Infrastructure" width="100%" />
-</p>
+<img src="./hero.svg" width="100%" alt="Chintan Goyal — Data & AI Infrastructure"/>
 
-<p align="center">
-  <a href="https://chintangoyal.com">
-    <img src="https://img.shields.io/badge/chintangoyal.com-111827?style=flat-square&logo=vercel&logoColor=6366f1" alt="Website" />
-  </a>&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/chintan-goyal/">
-    <img src="https://img.shields.io/badge/LinkedIn-111827?style=flat-square&logo=linkedin&logoColor=6366f1" alt="LinkedIn" />
-  </a>&nbsp;&nbsp;
-  <a href="mailto:mail.chintan.goyal@gmail.com">
-    <img src="https://img.shields.io/badge/Email-111827?style=flat-square&logo=gmail&logoColor=6366f1" alt="Email" />
-  </a>
-</p>
-
-<br/>
-
-I design multi-cloud data platforms, fix cost and latency problems at ISP scale, and build production AI tooling with proper observability and eval gates. 9+ years across AWS, GCP, Spark, Airflow, Databricks, BigQuery, and platform architecture.
-
-Right now I'm focused on metadata automation and eval-gated AI infrastructure.
+I design data platforms and ML infrastructure at scale — boring, reliable systems that earn their complexity. 9+ years across telecom, fintech, and analytics; most recently at ISP scale (~15M customers, ~100M devices).
 
 ---
 
-### At a glance
+### What I've shipped
 
-| | | | |
-|:---:|:---:|:---:|:---:|
-| **~15M customers** | **~50 PB footprint** | **p95 ~30s** | **~$100k/mo saved** |
-| systems I help architect | storage, analytics, governance | 1-month raw-JSON analytics | always-on → serverless workload shift |
+Started on a ~500 PB Hadoop cluster at Infosys, tuning Spark jobs until they ran ~70% faster. Built India's COVID data platform for the Prime Minister's Office (NASSCOM Corona Warrior, 2020). Designed trade-fail automation at Morgan Stanley that saved ~120 hours/week and ~$10M in cost avoidance. Now at Plume Design — multi-cloud data infra serving ~15M customers across a ~550 PB footprint.
 
----
-
-### Selected work
-
-**[Project Lumos](https://github.com/goyal-chintan/project-lumos)** · metadata automation
-<br/>Cloud- and catalog-agnostic. Connects data-producing systems to your chosen catalog, keeps metadata current without manual toil. 6+ source handlers, config-driven, DataHub today.
-
-**[OpsPilot](https://github.com/goyal-chintan/intelliOps)** · eval-gated LLM ops
-<br/>Production-shaped reliability copilot. Deterministic baselines, tenant-aware scaffolding, governed tool use, observability-first. Layer 0 shipped; building toward multi-tenant RAG with citations.
+![Data Scale](https://img.shields.io/badge/data_footprint-~550_PB-38bdf8?style=flat-square)
+![Customers](https://img.shields.io/badge/customers-~15M-38bdf8?style=flat-square)
+![Latency](https://img.shields.io/badge/p95_latency-~30s-38bdf8?style=flat-square)
+![Cost Savings](https://img.shields.io/badge/cost_avoidance-~$10M-38bdf8?style=flat-square)
+![Awards](https://img.shields.io/badge/awards-6-38bdf8?style=flat-square)
 
 ---
 
-### What I optimize for
+### Now building
 
-**Portability over lock-in** — clean integration boundaries so platforms survive cloud and vendor changes without a rewrite.
+**[Project Lumos](https://github.com/goyal-chintan/project-lumos)** — open-source metadata automation. Config-driven, catalog-agnostic framework with 6+ source handlers. Automates metadata hygiene without manual effort.
 
-**Performance with cost discipline** — solutions that improve both latency and unit economics, not one at the expense of the other.
+**[FocusFlow](https://github.com/goyal-chintan/focus-flow)** — native macOS menu bar focus timer with on-device AI coaching, session analytics, and distraction blocking. Built in Swift.
 
-**Trust before hype** — observability, evals, and failure-mode thinking before flashy demos.
-
----
-
-### Systems I spend time with
-
-| | |
-|:---|:---|
-| **Cloud** | AWS, GCP, Databricks, Kubernetes, EMR on EKS |
-| **Data** | Spark, Airflow, BigQuery, Athena, Kafka, YugabyteDB |
-| **AI infra** | FastAPI, Spring Boot, pgvector, OpenTelemetry, eval harnesses |
-| **Languages** | Python, Scala, Java, SQL |
+**[ai-agent-skills](https://github.com/goyal-chintan/ai-agent-skills)** — curated library of 34 reusable skills for AI coding assistants across planning, debugging, development, and review workflows.
 
 ---
 
-### Platform outcomes I care about
+### Systems I work with
 
-- Architecting multi-cloud AWS ↔ GCP portability so platforms scale across environments without forking the core
-- Restoring interactive analytics on month-scale raw data without naive cost blowups
-- Turning platform cost problems into repeatable engineering leverage through better query plans, workload placement, and operational discipline
+**Cloud** — AWS · GCP · Databricks
+**Compute** — Spark · Scala · Python · SQL
+**Storage** — S3 · BigQuery · Snowflake · Delta · Iceberg
+**Orchestration** — Airflow · Step Functions · Lambda
+**Observe** — OpenTelemetry · Grafana · OpsGenie
+**Frontend** — Next.js · TypeScript · Swift
 
 ---
 
-If you're building data or AI infrastructure where portability, latency, cost, and trust all matter at the same time — I'd like to compare notes.
+Portability over lock-in · Performance with cost discipline · Trust before hype
 
-<p>
-  <a href="mailto:mail.chintan.goyal@gmail.com">
-    <img src="https://img.shields.io/badge/Say%20hi-6366f1?style=for-the-badge&labelColor=111827&logo=gmail&logoColor=6366f1" alt="Say hi" />
-  </a>&nbsp;
-  <a href="https://chintangoyal.com">
-    <img src="https://img.shields.io/badge/Portfolio-8b5cf6?style=for-the-badge&labelColor=111827&logo=vercel&logoColor=8b5cf6" alt="Portfolio" />
-  </a>&nbsp;
-  <a href="https://www.linkedin.com/in/chintan-goyal/">
-    <img src="https://img.shields.io/badge/Connect-6366f1?style=for-the-badge&labelColor=111827&logo=linkedin&logoColor=6366f1" alt="LinkedIn" />
-  </a>
-</p>
+---
 
-<sub>I like sharp abstractions, boringly reliable systems, and products that earn their complexity.</sub>
+[![Say hi](https://img.shields.io/badge/say_hi-mail.chintan.goyal@gmail.com-8b949e?style=flat-square)](mailto:mail.chintan.goyal@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-chintan--goyal-8b949e?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/chintan-goyal/)
