@@ -1,0 +1,107 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Chintan Goyal - systems-minded data and AI builder</title>
+  <desc id="desc">A premium dark hero card highlighting multi-cloud platforms, metadata automation, and eval-gated AI infrastructure.</desc>
+  <defs>
+    <linearGradient id="bg" x1="88" y1="48" x2="1176" y2="592" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#060816"/>
+      <stop offset="0.52" stop-color="#0B1224"/>
+      <stop offset="1" stop-color="#101A31"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="84" y1="52" x2="1192" y2="588" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA" stop-opacity="0.65"/>
+      <stop offset="0.48" stop-color="#A78BFA" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="846" y1="72" x2="1170" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101B32" stop-opacity="0.88"/>
+      <stop offset="1" stop-color="#0A1222" stop-opacity="0.78"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0E172D"/>
+      <stop offset="1" stop-color="#0B1222"/>
+    </linearGradient>
+    <radialGradient id="glowLeft" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(290 170) rotate(31.6) scale(380 240)">
+      <stop stop-color="#8B5CF6" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowRight" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1095 118) rotate(90) scale(260 280)">
+      <stop stop-color="#22D3EE" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#B7C4FF" stroke-opacity="0.08"/>
+    </pattern>
+    <filter id="blur64" x="-160" y="-160" width="1600" height="960" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="64"/>
+    </filter>
+    <filter id="blur28" x="-80" y="-80" width="1600" height="960" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+  </defs>
+
+  <rect x="36" y="36" width="1208" height="568" rx="42" fill="url(#bg)"/>
+  <rect x="36.75" y="36.75" width="1206.5" height="566.5" rx="41.25" stroke="url(#stroke)" stroke-opacity="0.8" stroke-width="1.5"/>
+  <rect x="36" y="36" width="1208" height="568" rx="42" fill="url(#grid)"/>
+
+  <g filter="url(#blur64)">
+    <ellipse cx="278" cy="164" rx="220" ry="140" fill="url(#glowLeft)"/>
+    <ellipse cx="1088" cy="132" rx="200" ry="180" fill="url(#glowRight)"/>
+  </g>
+
+  <path d="M736 152C826 178 910 214 1098 206" stroke="#7DD3FC" stroke-opacity="0.38" stroke-width="1.5"/>
+  <path d="M722 218C840 264 928 320 1118 318" stroke="#A78BFA" stroke-opacity="0.32" stroke-width="1.5"/>
+  <path d="M708 286C832 346 936 410 1120 430" stroke="#60A5FA" stroke-opacity="0.24" stroke-width="1.5"/>
+
+  <text x="92" y="116" fill="#8EA4D2" font-family="Inter, SF Pro Display, Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="3.6">SYSTEMS-MINDED DATA &amp; AI BUILDER</text>
+
+  <text x="92" y="226" fill="#F8FAFC" font-family="Inter, SF Pro Display, Segoe UI, Arial, sans-serif" font-size="88" font-weight="700" letter-spacing="-2.4">Chintan</text>
+  <text x="92" y="318" fill="#E2E8F0" font-family="Inter, SF Pro Display, Segoe UI, Arial, sans-serif" font-size="88" font-weight="500" letter-spacing="-2.4">Goyal</text>
+
+  <text x="94" y="384" fill="#BFD0F2" font-family="Inter, SF Pro Display, Segoe UI, Arial, sans-serif" font-size="28" font-weight="500">
+    <tspan x="94" dy="0">Multi-cloud platforms.</tspan>
+    <tspan x="94" dy="40">Metadata automation.</tspan>
+    <tspan x="94" dy="40">Eval-gated AI infrastructure.</tspan>
+  </text>
+
+  <text x="94" y="536" fill="#90A3C8" font-family="Inter, SF Pro Display, Segoe UI, Arial, sans-serif" font-size="22" font-weight="400">
+    <tspan x="94" dy="0">Built for scale, cost discipline, portability, and trust.</tspan>
+    <tspan x="94" dy="34">The kind of systems that still make sense when they reach production.</tspan>
+  </text>
+
+  <g>
+    <rect x="92" y="440" width="200" height="54" rx="27" fill="url(#chip)" stroke="#1D335C"/>
+    <rect x="306" y="440" width="186" height="54" rx="27" fill="url(#chip)" stroke="#1D335C"/>
+    <rect x="506" y="440" width="192" height="54" rx="27" fill="url(#chip)" stroke="#1D335C"/>
+    <text x="192" y="474" text-anchor="middle" fill="#E5EEF9" font-family="Inter, SF Pro Display, Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">AWS &lt;-&gt; GCP</text>
+    <text x="399" y="474" text-anchor="middle" fill="#E5EEF9" font-family="Inter, SF Pro Display, Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">Project Lumos</text>
+    <text x="602" y="474" text-anchor="middle" fill="#E5EEF9" font-family="Inter, SF Pro Display, Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">OpsPilot</text>
+  </g>
+
+  <g>
+    <rect x="836" y="70" width="352" height="500" rx="30" fill="url(#panel)" stroke="#1F325E" stroke-opacity="0.9"/>
+    <rect x="858" y="100" width="308" height="116" rx="22" fill="#0C1528" fill-opacity="0.72" stroke="#1F325E"/>
+    <rect x="858" y="232" width="308" height="116" rx="22" fill="#0C1528" fill-opacity="0.72" stroke="#1F325E"/>
+    <rect x="858" y="364" width="308" height="172" rx="22" fill="#0C1528" fill-opacity="0.72" stroke="#1F325E"/>
+
+    <text x="862" y="88" fill="#7C91BA" font-family="Inter, SF Pro Display, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="2.4">SIGNAL</text>
+
+    <text x="884" y="130" fill="#7DD3FC" font-family="Inter, SF Pro Display, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2">OPERATING SCALE</text>
+    <text x="884" y="174" fill="#F8FAFC" font-family="Inter, SF Pro Display, Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">~15M customers</text>
+    <text x="884" y="204" fill="#A7BADF" font-family="Inter, SF Pro Display, Segoe UI, Arial, sans-serif" font-size="18" font-weight="500">~100M devices | ~50 PB data footprint</text>
+
+    <text x="884" y="262" fill="#A78BFA" font-family="Inter, SF Pro Display, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2">RECENT WINS</text>
+    <text x="884" y="306" fill="#F8FAFC" font-family="Inter, SF Pro Display, Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">p95 ~30s analytics</text>
+    <text x="884" y="336" fill="#A7BADF" font-family="Inter, SF Pro Display, Segoe UI, Arial, sans-serif" font-size="18" font-weight="500">~$100k / month saved through workload redesign</text>
+
+    <text x="884" y="394" fill="#60A5FA" font-family="Inter, SF Pro Display, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2">BUILDING NOW</text>
+    <text x="884" y="438" fill="#F8FAFC" font-family="Inter, SF Pro Display, Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Metadata portability</text>
+    <text x="884" y="467" fill="#A7BADF" font-family="Inter, SF Pro Display, Segoe UI, Arial, sans-serif" font-size="18" font-weight="500">Project Lumos keeps catalogs accurate without manual toil.</text>
+    <text x="884" y="507" fill="#F8FAFC" font-family="Inter, SF Pro Display, Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Trustworthy LLM ops</text>
+    <text x="884" y="536" fill="#A7BADF" font-family="Inter, SF Pro Display, Segoe UI, Arial, sans-serif" font-size="18" font-weight="500">OpsPilot is designed around evals, guardrails, and observability.</text>
+  </g>
+
+  <g filter="url(#blur28)" opacity="0.6">
+    <circle cx="838" cy="70" r="70" fill="#60A5FA"/>
+    <circle cx="1214" cy="558" r="76" fill="#8B5CF6"/>
+  </g>
+</svg>
